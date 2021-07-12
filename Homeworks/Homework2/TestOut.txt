@@ -1,0 +1,3 @@
+Team Name              W   L   T   Win%   Goals   Penalties
+Cornell                0   0   0   -nan       0           0
+Yale                   2   0   0   1.00       0           0

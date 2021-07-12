@@ -1,0 +1,151 @@
+4:
+
+Interval compute_interval(stl::vector<float>){
+	
+	
+}
+
+
+
+
+
+To find the maximum and minimum of an unsorted set, every value will need to be
+viewed no matter what. Since only those two values need to be returned, and
+none of the data needs to be reordered, this method does not lower the amount
+of comparisons required, it only complicates the manner in which we do them.
+
+
+6:
+
+template <class T>
+Node<T> FindSumStart(Node<T> & head){
+	if(head->next==NULL)
+		std::cerr<<"No valid sequence found";
+	int total=head->value;
+	currentNode=head->next;
+	while(currentNode!=NULL){
+		if(total==currentNode->value)
+			return head;
+		total+=currentNode->value;
+		currentNode=currentNode->next;
+	}
+	return FindSumStart(head->next);
+}
+
+
+
+O(n^2)
+
+
+
+
+7:
+
+//this assumes that i comes before j
+template <class T>
+reverse_splice(stl::list<T> & data, stl::list<T>::iterator & i, stl::list<T>::iterator & j){
+	if(i==j)
+		return false;
+	while((i!=j)&&(j->ptr->next!=i)){
+		T temp=*j;
+		*j=*i;
+		*i=temp;
+		j--;
+		i++;
+	}
+	return true;
+}
+
+
+
+
+
+
+
+
+
+
+
+8:
+
+Factor(Node & head, Node & tail){
+	if(head==tail)
+		return false;
+	int factor=getFirstFactor(head->value);
+	if(factor!=1){
+		head->value=head->value/factor;
+		Node temp(factor);
+		temp->next=head->next;
+		temp->prev=head;
+		temp->next->prev=temp;
+		head->next=temp;
+		return true;
+	}
+	return Factor(head->next,tail);
+}
+
+
+int getFirstFactor(int num){
+	if(num<0)
+		return -1;
+	if(num<4)
+		return 1;
+	if(num%2=0)
+		return num/2;
+	for(int i=5;i<sqrt(num);i+=2){
+		if(num%i==0)
+			return num/i;
+	}
+	return 1;
+}
+
+
+
+11:
+
+template <class T>
+unsigned int erase_middles(stl::list<T> & data, T & value){
+	stl::list<T>::iterator iter=data.begin();
+	unsigned int numMatches=0;
+
+	while(iter!=data.end()){
+		if(*iter==value){
+			numMatches++;
+		}
+		iter++;
+	}
+
+	if(numMatches<=2){
+		return 0;
+	}
+
+	iter=data.begin();
+	while(*iter!=value){
+		iter++;
+	}
+	iter++;
+
+	int i=2;
+	while(i<numMatches){
+		if(*iter==value){
+			iter=iter.erase();
+			i++;
+		}
+		else{
+			iter++;
+		}
+	}
+	return numMatches-2;
+}
+
+
+
+
+
+
+
+
+12:
+
+E/c/d
+G

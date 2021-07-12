@@ -1,0 +1,41 @@
+constellation   Ursa_Major
+star   224.65   436.77    1.76    ε_UMa
+star   484.38   395.53    1.81    α_UMa
+star    56.69   468.60    1.85    η_UMa
+star   154.65   419.32    2.23    Mizar
+star   486.29   489.12    2.34    β_UMa
+star   352.60   520.75    2.41    γ_UMa
+star   458.01   694.38    3.00    ψ_UMa
+star   610.17   739.71    3.06    μ_UMa
+star   826.56   563.99    3.12    ι_UMa
+star   720.43   537.81    3.17    θ_UMa
+star   315.54   451.28    3.32    δ_UMa
+star   790.76   334.48    3.35    ο_UMa
+star   624.24   713.67    3.45    λ_UMa
+star   418.56   882.19    3.49    ν_UMa
+star   820.65   583.28    3.57    κ_UMa
+star   663.53   347.77    3.65    23_UMa
+star   354.88   625.85    3.69    χ_UMa
+star   644.33   425.84    3.78    υ_UMa
+star   418.23   907.25    3.79    ξ_UMa_A
+line   23_UMa   α_UMa
+line   23_UMa   ο_UMa
+line   23_UMa   υ_UMa
+line   Mizar   ε_UMa
+line   Mizar   η_UMa
+line   α_UMa   β_UMa
+line   α_UMa   δ_UMa
+line   β_UMa   γ_UMa
+line   β_UMa   υ_UMa
+line   γ_UMa   δ_UMa
+line   γ_UMa   χ_UMa
+line   δ_UMa   ε_UMa
+line   θ_UMa   κ_UMa
+line   θ_UMa   υ_UMa
+line   ι_UMa   κ_UMa
+line   λ_UMa   μ_UMa
+line   μ_UMa   ψ_UMa
+line   ν_UMa   ξ_UMa_A
+line   ν_UMa   χ_UMa
+line   ο_UMa   υ_UMa
+line   χ_UMa   ψ_UMa

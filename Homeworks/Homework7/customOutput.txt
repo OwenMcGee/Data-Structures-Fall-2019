@@ -1,0 +1,36 @@
+sally has no items checked out
+You can't take my books!
+Well that did... nothing
+added 1 copy of Bible
+added 2 copies of Webster's_Dictionary
+don't have Eragon in library
+Gilgamesh checked out Bible
+Gilgamesh already has Bible
+no copies of Bible available
+Gilgamesh has this item checked out:
+  Bible
+Gilgamesh returned 1 item
+Gilgamesh checked out Bible
+Gilgamesh has this item checked out:
+  Bible
+Gilgamesh returned 1 item
+library info for: Bible
+  1 copy available
+library info for: Webster's_Dictionary
+  2 copies available
+Harriet_Jones checked out Webster's_Dictionary
+library info for: Webster's_Dictionary
+  1 copy available
+  1 copy checked out by:
+    Harriet_Jones
+Gregor_Clegane checked out Webster's_Dictionary
+library info for: Webster's_Dictionary
+  2 copies checked out by:
+    Harriet_Jones
+    Gregor_Clegane
+Gregor_Clegane checked out Bible
+Gregor_Clegane has these items checked out:
+  Webster's_Dictionary
+  Bible
+Harriet_Jones has this item checked out:
+  Webster's_Dictionary

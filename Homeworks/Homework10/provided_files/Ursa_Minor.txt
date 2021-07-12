@@ -1,0 +1,15 @@
+constellation   Ursa_Minor
+star   497.59   273.15    1.97    Polaris
+star   528.93   558.78    2.07    β_UMi
+star   492.26   600.57    3.04    γ_UMi
+star   446.47   412.32    4.21    ε_UMi
+star   473.30   495.15    4.29    ζ_UMi
+star   466.45   333.89    4.35    δ_UMi
+star   433.75   523.53    4.95    η_UMi
+line   Polaris   δ_UMi
+line   β_UMi   γ_UMi
+line   β_UMi   ζ_UMi
+line   γ_UMi   η_UMi
+line   δ_UMi   ε_UMi
+line   ε_UMi   ζ_UMi
+line   ζ_UMi   η_UMi

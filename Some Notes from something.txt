@@ -1,0 +1,46 @@
+Compile with: gcc -Wall -Werror file.c
+
+-Wall = warnings all (prints all warnings)
+
+-Werror = warnings as errors (treats all warnings as errors, and will stop running if a warning pops up)
+
+
+
+-E = preprocessor only (won't produce an output file that can be run)
+
+
+
+echo $? - gives you the return of the previously run statement (should be 0 if the program ran correctly)
+
+
+
+to use the math libraary add "-lm" to the end of gcc
+
+
+
+
+call "man # function" and it will show the manual for a given function
+
+
+
+
+%3d prints doubles with a width of 3
+$03d prints doubles with a width of 3, with spaces replaced with 0s
+%20.15f prints floats to a width of 20 and a precision of 15 decimal points
+(by default these adjust to the right, and if they hit the max width they keep going off to the right)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

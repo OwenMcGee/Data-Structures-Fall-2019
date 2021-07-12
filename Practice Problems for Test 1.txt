@@ -1,0 +1,40 @@
+class Expense{
+	public:
+		Expense(const std::string & name, const int cost);
+		std::string getName() const;
+		int getCost() const;
+		std::string print() const;
+	private:
+		std::string name;
+		int cost;
+};
+
+
+
+
+
+bool byCost(const Expense &a, const Expense &b)
+
+
+
+
+class Budget{
+	public:
+		Budget();
+
+		addExpense(const std::string & category, const Expense
+		void print() const;
+	private:
+		
+};
+
+bool byName(const &
+
+
+
+
+void Budget::addExpense(const std::string &category, const Expense){
+
+
+
+}

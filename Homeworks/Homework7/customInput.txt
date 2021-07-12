@@ -1,0 +1,24 @@
+r sally
+a -2 Dracula
+a 0 Eragon
+a 1 Bible
+a 2 Webster's_Dictionary
+c Matt_Parker Eragon
+c Gilgamesh Bible
+c Gilgamesh Bible
+c Willfred_Alexander_Reginal_III_Junior Bible
+p
+r Gilgamesh
+c Gilgamesh Bible
+p
+r Gilgamesh
+p
+l Bible
+l Webster's_Dictionary
+c Harriet_Jones Webster's_Dictionary
+l Webster's_Dictionary
+c Gregor_Clegane Webster's_Dictionary
+l Webster's_Dictionary
+l Calc_Textbook
+c Gregor_Clegane Bible
+p
